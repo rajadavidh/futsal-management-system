@@ -89,6 +89,13 @@ git clone https://github.com/rajadavidh/futsal-management-system.git
    ```
    git commit -m "initial commit"
    ```
+1. Add a remote repository:
+   ```
+   # Set a new remote
+   git remote add origin https://github.com/rajadavidh/futsal-management-system.git
+   # Verify new remote
+   git remote -v
+   ```
 1. Upload local branch commits to remote repository:
    ```
    git push origin master
