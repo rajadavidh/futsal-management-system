@@ -19,6 +19,12 @@ List of features in this system:
 ### Class diagram
 ![class diagram](https://github.com/rajadavidh/futsal-management-system/blob/master/img/UMLFutsalManagementSystem.png)
 
+### Directory structure
+```
+/src  --> Contains driver class and other components
+/img  --> Contains screenshots of the UI
+```
+
 ### User manual
 #### Main menu
 ![main menu](https://github.com/rajadavidh/futsal-management-system/blob/master/img/mainMenu.png)
@@ -66,42 +72,6 @@ Available options:
   In this menu, user can view top scorer players
 
 
-### Directory structure
-```
-/src  --> Contains driver class and other components
-/img  --> Contains screenshots of the UI
-```
-
-### Download entire repository
-Clone remote repository using command:
-```
-git clone https://github.com/rajadavidh/futsal-management-system.git
-```
-
-### Setup local repository and Push to remote repository
-1. Create remote repository from github webpage
-1. Create new local repository:
-   ```
-   git init
-   git status
-   git add -A
-   ```
-1. Commit changes on local repository:
-   ```
-   git commit -m "initial commit"
-   ```
-1. Add a remote repository:
-   ```
-   # Set a new remote
-   git remote add origin https://github.com/rajadavidh/futsal-management-system.git
-   # Verify new remote
-   git remote -v
-   ```
-1. Upload local branch commits to remote repository:
-   ```
-   git push -u origin master
-   ```
-
 ## ID lang
 ### Deskripsi program
 Futsal Manajemen adalah aplikasi desktop berbasis Java untuk pengelolaan administrasi sebuah turnamen futsal.
@@ -140,6 +110,15 @@ Secara keseluruhan, fitur-fitur dari aplikasi ini adalah:
 
 ### Pengembangan
 Aplikasi ini dapat dikembangkan lebih lanjut menggunakan desain interface yang baik dan menarik.
+
+### Diagram kelas
+![diagram kelas](https://github.com/rajadavidh/futsal-management-system/blob/master/img/UMLFutsalManagementSystem.png)
+
+### Struktur direktori
+```
+/src  --> Berisi kelas driver dan komponen lainnya
+/img  --> Berisi gambar cuplikan antarmuka
+```
 
 ### Panduan pengguna
 #### Menu utama
@@ -215,9 +194,40 @@ Menu yang tersedia :
 
   Digunakan untuk melihat pertandingan-pertandingan yang telah dilaksanakan.
 
-
 ##### 4. Melihat rekap pencetak gol terbanyak
 
 `Menu Utama >> Pilihan : 3. (Lihat Top Skor)`
 
 Fitur ini digunakan untuk melihat dan mer-ranking pemain-pemain yang mencetak gol terbanyak.
+
+
+## Github setup
+### Download entire repository
+Clone remote repository using command:
+```
+git clone https://github.com/rajadavidh/futsal-management-system.git
+```
+
+### Setup local repository and Push to remote repository
+1. Create remote repository from github webpage
+1. Create new local repository:
+   ```
+   git init
+   git status
+   git add -A
+   ```
+1. Commit changes on local repository:
+   ```
+   git commit -m "initial commit"
+   ```
+1. Add a remote repository:
+   ```
+   # Set a new remote
+   git remote add origin https://github.com/rajadavidh/futsal-management-system.git
+   # Verify new remote
+   git remote -v
+   ```
+1. Upload local branch commits to remote repository:
+   ```
+   git push -u origin master
+   ```
