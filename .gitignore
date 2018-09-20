@@ -1,0 +1,8 @@
+# MacOSx sytem files
+.DS_Store
+
+# Sublime files
+.project
+
+# Java class files
+*.class
