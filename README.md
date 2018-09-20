@@ -79,6 +79,7 @@ git clone https://github.com/rajadavidh/futsal-management-system.git
 ```
 
 ### Setup local repository and Push to remote repository
+1. Create remote repository from github webpage
 1. Create new local repository:
    ```
    git init
@@ -98,7 +99,7 @@ git clone https://github.com/rajadavidh/futsal-management-system.git
    ```
 1. Upload local branch commits to remote repository:
    ```
-   git push origin master
+   git push -u origin master
    ```
 
 ## ID lang
