@@ -74,7 +74,7 @@ Available options:
 
 ## ID lang
 ### Deskripsi program
-Futsal Manajemen adalah aplikasi desktop berbasis Java untuk pengelolaan administrasi sebuah turnamen futsal.
+_Futsal Manajemen System_ adalah aplikasi desktop berbasis Java untuk pengelolaan administrasi sebuah turnamen futsal.
 
 Sasaran pengguna dari aplikasi ini adalah panitia penyelenggara turnamen futsal dengan lingkup batasan di lingkungan perkuliahan.
 
